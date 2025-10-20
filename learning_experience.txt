@@ -1,0 +1,49 @@
+The git code 
+
+1.git //check is there Git in your computer
+
+2.brew install git //install git in you computer by Homebrew
+
+3.mkdir learngit //create a repository make directory   
+  cd learngit    //enter  to learngit change directory
+  pwd            //show what in there   print working directory
+
+4.git init //change directory into a repository which can be managed by Git
+
+5.git add readme.txt //add this txt into repository
+
+6.git commit -m "wrote a readme file" //commit this file into repository and write a resume
+
+7.git add file1.txt file2.txt
+  git commit -m "add 3 files" //u can commit some files
+
+8.git status //check the statement about the respository
+
+9.git diff readme.txt //this code can show u what the difference
+
+10.git log // it can show u the history
+
+11.git log --pretty=online //which can make this be concise
+
+12.git reset --hard HEAD^ //this can help you become last version
+
+13.cat readme.txt //this can show u the context about the file
+
+14.git reflog //this can show you the command u have done
+
+15.git checkout -- readme.txt //this can dicard you change in the stage
+
+16.rm test.txt //delete the file
+
+17.ssh-keygen -t rsa -C "youremail@example.com" //create SSH key
+
+18.git remote add origin git@github.com:walestaral/learngit.git //relate you local respository to online respository in github
+
+19.git push -u origin master //translate all your file to the remote respository
+
+20.git push origin master //the concise code about last code
+
+21.git remote -v //it will show you about the info about the remote respository
+
+22.git remote rm origin //it will help you delete the respository 
+
